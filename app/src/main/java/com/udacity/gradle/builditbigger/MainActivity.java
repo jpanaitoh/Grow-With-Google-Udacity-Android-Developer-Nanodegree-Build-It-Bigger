@@ -1,5 +1,7 @@
 package com.udacity.gradle.builditbigger;
 
+import com.tachyonlabs.javajokes.Joker;
+
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
@@ -9,11 +11,13 @@ import android.widget.Toast;
 
 
 public class MainActivity extends AppCompatActivity {
+    Joker mJoker;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        mJoker = new Joker();
     }
 
 
@@ -40,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void tellJoke(View view) {
-        Toast.makeText(this, "derp", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, mJoker.getJoke(), Toast.LENGTH_SHORT).show();
     }
 
 
