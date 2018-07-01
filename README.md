@@ -4,6 +4,23 @@ When complete, this will be my submission for the fifth project in the "Grow
 With Google" scholarship Udacity/Google Android Developer Nanodegree program. 
 #GoogleUdacityScholars #GrowWithGoogle
 
+## Notes
+
+To run the project on my phone rather than an emulator, in MainActivity.EndpointsAsyncTask 
+I changed setRootUrl to use my laptop's IP address, and in the backend module's build.gradle file 
+I added 
+```
+appengine {
+    run {
+        host = "0.0.0.0"
+        port = 8080
+    }
+}
+```
+So delete the above from the backend build.gradle file if you're running on an emulator (plus 
+changing setRootUrl to the emulator localhost IP address 10.0.2.2), or change setRootUrl to 
+your own system's IP address if you're using a physical device.
+
 ## About this project
 
 In this project, you will create an app with multiple flavors that uses
@@ -97,7 +114,7 @@ the Setup Cloud SDK.
 Start or stop your local server by using the gradle tasks as shown in the following
 screenshot:
 
-<img src="/FinalProject/GCE-server-gradle-tasks.png" height="500">
+<img src="https://github.com/udacity/ud867/blob/master/FinalProject/GCE-server-gradle-tasks.png" height="500">
 
 Once your local GCE server is started you should see the following at 
 [localhost:8080](http://localhost:8080)
@@ -189,3 +206,4 @@ where I got some of the others:
 
 * [https://hackernoon.com/30-jokes-only-programmers-will-get-a901e1cea549](https://hackernoon.com/30-jokes-only-programmers-will-get-a901e1cea549)
 * [https://www.facebook.com/programmingjokes/](https://www.facebook.com/programmingjokes/)
+* [https://github.com/EugeneKay/git-jokes/blob/lulz/Jokes.txt](https://github.com/EugeneKay/git-jokes/blob/lulz/Jokes.txt)
