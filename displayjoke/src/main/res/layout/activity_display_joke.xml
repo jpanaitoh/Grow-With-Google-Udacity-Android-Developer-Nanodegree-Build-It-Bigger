@@ -13,7 +13,7 @@
             android:layout_height="wrap_content">
 
         <TextView
-                tools:text="TextView"
+                tools:text="The joke will be displayed here."
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/tv_joke"

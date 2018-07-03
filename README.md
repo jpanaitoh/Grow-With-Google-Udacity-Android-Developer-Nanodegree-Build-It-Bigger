@@ -17,7 +17,7 @@ appengine {
     }
 }
 ```
-So delete the above from the backend build.gradle file if you're running on an emulator (plus 
+So comment out the above from the backend build.gradle file if you're running on an emulator (plus 
 changing setRootUrl to the emulator localhost IP address 10.0.2.2), or change setRootUrl to 
 your own system's IP address if you're using a physical device.
 
@@ -179,14 +179,14 @@ To tie it all together, create a Gradle task that:
 
 * [x] Project contains a Java library for supplying jokes
 * [x] Project contains an Android library with an activity that displays jokes passed to it as intent extras.
-* [ ] Project contains a Google Cloud Endpoints module that supplies jokes from the Java library. Project loads jokes from GCE module via an async task.
-* [ ] Project contains connected tests to verify that the async task is indeed loading jokes.
+* [x] Project contains a Google Cloud Endpoints module that supplies jokes from the Java library. Project loads jokes from GCE module via an async task.
+* [x] Project contains connected tests to verify that the async task is indeed loading jokes.
 * [ ] Project contains paid/free flavors. The paid flavor has no ads, and no unnecessary dependencies.
 * [ ] Ads are required in the free version
 
 ### Required Behavior
 
-* [ ] App retrieves jokes from Google Cloud Endpoints module and displays them via an Activity from the Android Library.
+* [x] App retrieves jokes from Google Cloud Endpoints module and displays them via an Activity from the Android Library.
 * [ ] App conforms to common standards found in the [Android Nanodegree General Project Guidelines](http://udacity.github.io/android-nanodegree-guidelines/core.html)
 
 ### Optional Components
@@ -202,8 +202,9 @@ Once you have a functioning project, consider adding more features to test your 
 ### Joke credits
 
 Most of the jokes were made up by me or adapted from old jokes that are all over the place, but here's 
-where I got some of the others:
+where I got/adapted some of the others:
 
 * [https://hackernoon.com/30-jokes-only-programmers-will-get-a901e1cea549](https://hackernoon.com/30-jokes-only-programmers-will-get-a901e1cea549)
 * [https://www.facebook.com/programmingjokes/](https://www.facebook.com/programmingjokes/)
 * [https://github.com/EugeneKay/git-jokes/blob/lulz/Jokes.txt](https://github.com/EugeneKay/git-jokes/blob/lulz/Jokes.txt)
+* [https://www.hongkiat.com/blog/programming-jokes/](https://www.hongkiat.com/blog/programming-jokes/)
