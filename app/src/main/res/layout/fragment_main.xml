@@ -13,6 +13,8 @@
         android:id="@+id/instructions_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginBottom="6dp"
         android:text="@string/instructions" />
 
     <Button
@@ -22,6 +24,15 @@
         android:layout_below="@+id/instructions_text_view"
         android:onClick="tellJoke"
         android:text="@string/button_text" />
+
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/joker_cropped"
+            android:id="@+id/iv_android_joker"
+            android:layout_marginTop="32dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"/>
 
     <com.google.android.gms.ads.AdView
         android:id="@+id/adView"
