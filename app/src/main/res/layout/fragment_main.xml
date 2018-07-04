@@ -27,8 +27,9 @@
 
     <ImageView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/joker_cropped"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:src="@drawable/joker_with_medal"
             android:id="@+id/iv_android_joker"
             android:layout_marginTop="32dp"
             android:layout_alignParentRight="true"

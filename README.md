@@ -2,7 +2,11 @@
 
 When complete, this will be my submission for the fifth project in the "Grow 
 With Google" scholarship Udacity/Google Android Developer Nanodegree program. 
-#GoogleUdacityScholars #GrowWithGoogle
+#GoogleUdacityScholars #GrowWithGoogle #MadeWithUdacity
+
+##Screenshot
+
+![MainActivity](https://github.com/tachyonlabs/Grow-With-Google-Udacity-Android-Developer-Nanodegree-Build-It-Bigger/blob/master/MainActivity.png "MainActivity") 
 
 ## Notes
 
@@ -20,6 +24,9 @@ appengine {
 So comment out the above from the backend build.gradle file if you're running on an emulator (plus 
 changing setRootUrl to the emulator localhost IP address 10.0.2.2), or change setRootUrl to 
 your own system's IP address if you're using a physical device.
+
+Before running the app you'll also need to follow step 3 of the instructions below to set up a 
+local Google Cloud Endpoints server and start the server via the Gradle Projects pane.
 
 ## About this project
 
