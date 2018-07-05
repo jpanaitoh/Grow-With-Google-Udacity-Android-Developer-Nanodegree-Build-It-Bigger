@@ -23,7 +23,7 @@ public class Joker {
                     " - \"goddamn idiotic truckload of sh*t\": when it breaks",
             "A student posted in the Grow_with_Google_Nanodegrees Slack #meet_ups channel, \"I apologize to anyone who tried to attend our meetup at the MongoDB cafe last night -- I didn't realize that there wouldn't be any tables.\"",
             "A student posted in the Grow_with_Google_Nanodegrees Slack #meet_ups channel, \"It was nice to meet some other students and help each other with our projects for Coffee Date yesterday, but the service was terrible! We kept asking for #000000 coffee, but they never brought us anything.\"",
-            "#100DaysOfCode, where you spend a half hour coding, and then another half hour reading everyone's #100DaysOfCode postings.",
+            "The #100DaysOfCode Grow_with_Google_Nanodegrees Slack channel, where you spend a half hour coding, and then another half hour reading everyone's #100DaysOfCode postings.",
             "Wow, once again the Build it Bigger project was getting a lot of weird error messages, but Build/Clean Project fixed everything. Now I'm wondering whether this project should be doing the equivalent of taking a shower every morning.",
             "Was there table service at the coffee shop where the Grow With Google FEND students had their meetup? NO, they had to FEND for themselves."};
 
