@@ -6,14 +6,13 @@ import com.google.api.client.googleapis.services.AbstractGoogleClientRequest;
 import com.google.api.client.googleapis.services.GoogleClientRequestInitializer;
 
 import com.tachyonlabs.builditbigger.backend.myApi.MyApi;
-import com.tachyonlabs.builditbigger.javajokes.Joker;
 import com.tachyonlabs.builditbigger.displayjoke.DisplayJokeActivity;
+import com.tachyonlabs.builditbigger.javajokes.Joker;
 
 import android.content.Context;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.support.v4.util.Pair;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.Menu;
@@ -59,15 +58,15 @@ public class MainActivity extends AppCompatActivity {
 
     public void tellJoke(View view) {
         Log.d(TAG, "button");
-        new EndpointsAsyncTask().execute(new Pair<Context, String>(this, "Manfred"));
+        new EndpointsAsyncTask().execute(this);
     }
 
-    class EndpointsAsyncTask extends AsyncTask<Pair<Context, String>, Void, String> {
+    class EndpointsAsyncTask extends AsyncTask<Context, Void, String> {
         private MyApi myApiService = null;
         private Context context;
 
         @Override
-        protected String doInBackground(Pair<Context, String>... params) {
+        protected String doInBackground(Context... params) {
             if(myApiService == null) {  // Only do this once
                 MyApi.Builder builder = new MyApi.Builder(AndroidHttp.newCompatibleTransport(),
                         new AndroidJsonFactory(), null)
@@ -87,11 +86,10 @@ public class MainActivity extends AppCompatActivity {
                 myApiService = builder.build();
             }
 
-            context = params[0].first;
-            String name = params[0].second;
+            context = params[0];
 
             try {
-                return myApiService.getJoke(name).execute().getData();
+                return myApiService.getJoke().execute().getData();
             } catch (IOException e) {
                 return e.getMessage();
             }

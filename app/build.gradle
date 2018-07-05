@@ -39,6 +39,18 @@ android {
             force 'com.android.support:appcompat-v7:27.1.1'
         }
     }
+
+    flavorDimensions "freeAndPaid"
+    productFlavors {
+        paid {
+            dimension "freeAndPaid"
+            applicationId "com.tachyonlabs.builditbigger.paid"
+        }
+        free {
+            dimension "freeAndPaid"
+            applicationId "com.tachyonlabs.builditbigger.free"
+        }
+    }
 }
 
 dependencies {
@@ -53,17 +65,10 @@ dependencies {
     implementation project(":javajokes")
     implementation project(':displayjoke')
 
+// Testingd ependencies
     testImplementation 'junit:junit:4.12'
-
-//    // Espresso idling resource gradle dependency
-//    implementation "com.android.support:design:27.1.1"
-//    implementation "com.android.support:support-annotations:27.1.1"
-//    implementation 'com.android.support.test.espresso:espresso-idling-resource:3.0.2'
-
-// Testing-only dependencies
     androidTestImplementation "com.android.support:support-annotations:27.1.1"
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
-    androidTestImplementation 'com.android.support.test.espresso:espresso-intents:3.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-contrib:3.0.2'
     androidTestImplementation 'com.android.support.test:rules:1.0.2'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'

@@ -1,10 +1,11 @@
 # Build it Bigger
 
 When complete, this will be my submission for the fifth project in the "Grow 
-With Google" scholarship Udacity/Google Android Developer Nanodegree program. 
+With Google" scholarship Udacity/Google Android Developer Nanodegree program. The jokes in 
+the app are all in-jokes or otherwise relevant to our program. :-)
 #GoogleUdacityScholars #GrowWithGoogle #MadeWithUdacity
 
-##Screenshot
+## Screenshot
 
 ![MainActivity](https://github.com/tachyonlabs/Grow-With-Google-Udacity-Android-Developer-Nanodegree-Build-It-Bigger/blob/master/MainActivity.png "MainActivity") 
 
