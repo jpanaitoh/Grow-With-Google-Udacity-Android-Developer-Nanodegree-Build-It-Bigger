@@ -5,9 +5,9 @@ With Google" scholarship Udacity/Google Android Developer Nanodegree program. Th
 the app are all in-jokes or otherwise relevant to our program. :-)
 #GoogleUdacityScholars #GrowWithGoogle #MadeWithUdacity
 
-## Screenshot
+## Video walkthrough of the free version/flavor
 
-![MainActivity](https://github.com/tachyonlabs/Grow-With-Google-Udacity-Android-Developer-Nanodegree-Build-It-Bigger/blob/master/MainActivity.png "MainActivity") 
+![Video walkthrough](https://github.com/tachyonlabs/Grow-With-Google-Udacity-Android-Developer-Nanodegree-Build-It-Bigger/blob/master/video_walkthrough.mp4 "Video walkthrough") 
 
 ## Notes
 
@@ -201,7 +201,7 @@ To tie it all together, create a Gradle task that:
 
 Once you have a functioning project, consider adding more features to test your Gradle and Android skills. Here are a few suggestions:
 
-* [ ] Make the free app variant display interstitial ads between the main activity and the joke-displaying activity.
+* [x] Make the free app variant display interstitial ads between the main activity and the joke-displaying activity.
 * [x] Have the app display a loading indicator while the joke is being fetched from the server.
 * [ ] Write a Gradle task that starts the GCE dev server, runs all the Android tests, and shuts down the dev server.
 
