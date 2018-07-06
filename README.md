@@ -7,7 +7,7 @@ the app are all in-jokes or otherwise relevant to our program. :-)
 
 ## Video walkthrough of the free version/flavor
 
-![Video walkthrough](https://github.com/tachyonlabs/Grow-With-Google-Udacity-Android-Developer-Nanodegree-Build-It-Bigger/blob/master/video_walkthrough.mp4 "Video walkthrough") 
+![Video walkthrough](https://github.com/tachyonlabs/Grow-With-Google-Udacity-Android-Developer-Nanodegree-Build-It-Bigger/blob/master/video_walkthrough.gif "Video walkthrough") 
 
 ## Notes
 
