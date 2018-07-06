@@ -76,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         protected String doInBackground(Context... params) {
-            if(myApiService == null) {  // Only do this once
+            if (myApiService == null) {  // Only do this once
                 MyApi.Builder builder = new MyApi.Builder(AndroidHttp.newCompatibleTransport(),
                         new AndroidJsonFactory(), null)
                         // options for running against local devappserver

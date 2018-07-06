@@ -3,6 +3,7 @@ package com.tachyonlabs.builditbigger.javajokes;
 import java.util.Random;
 
 public class Joker {
+    static Random rand = new Random();
     private static String[] jokes = {"A boolean and a float walk into the Mos Eisley Cantina.\n\nThe bartender throws them out, saying, \"We don't serve your types here!\"",
             "An Intent walks into a bar.\n\nThe bartender scowls and says, \"All right pal, I'll serve you, but don't start anything.\"",
             "Luke Skywalker has been having a terrible time trying to figure out GitHub to get the example projects for his Nanodegree set up on his computer.\n\nHis mentor Obi-Wan says, \"Use the forks, Luke.\"",
@@ -20,8 +21,6 @@ public class Joker {
             "The #100DaysOfCode Grow_with_Google_Nanodegrees Slack channel, where you spend a half hour coding, and then another half hour reading everyone's #100DaysOfCode postings.",
             "Wow, once again the Build it Bigger project was getting a lot of weird error messages, but Build/Clean Project fixed everything.\n\nNow I'm wondering whether this project should be doing the equivalent of taking a shower every morning.",
             "Was there table service at the coffee shop where the Grow With Google FEND students had their meetup?\n\nNO, they had to FEND for themselves."};
-
-    static Random rand = new Random();
 
     public static String getJoke() {
         return jokes[rand.nextInt(jokes.length)];

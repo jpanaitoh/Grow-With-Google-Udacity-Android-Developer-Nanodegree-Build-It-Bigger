@@ -13,8 +13,8 @@
             android:id="@+id/instructions_text_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="18sp"
-            android:layout_marginBottom="6dp"
+            android:textSize="@dimen/instructions_textsize"
+            android:layout_marginBottom="@dimen/instructions_margin_bottom"
             android:text="@string/instructions"
             android:fontFamily="@font/fontdiner_swanky"/>
 
@@ -32,7 +32,7 @@
             android:adjustViewBounds="true"
             android:src="@drawable/joker_with_medal"
             android:id="@+id/iv_android_joker"
-            android:layout_marginTop="32dp"
+            android:layout_marginTop="@dimen/android_joker_image_top_margin"
             android:layout_alignParentRight="true"
             android:layout_alignParentBottom="true"/>
 

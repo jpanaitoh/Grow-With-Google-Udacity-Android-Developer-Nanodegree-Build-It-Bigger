@@ -195,7 +195,7 @@ To tie it all together, create a Gradle task that:
 ### Required Behavior
 
 * [x] App retrieves jokes from Google Cloud Endpoints module and displays them via an Activity from the Android Library.
-* [ ] App conforms to common standards found in the [Android Nanodegree General Project Guidelines](http://udacity.github.io/android-nanodegree-guidelines/core.html)
+* [x] App conforms to common standards found in the [Android Nanodegree General Project Guidelines](http://udacity.github.io/android-nanodegree-guidelines/core.html)
 
 ### Optional Components
 
