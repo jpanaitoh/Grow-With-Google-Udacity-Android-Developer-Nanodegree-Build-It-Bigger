@@ -1,8 +1,8 @@
 # Build it Bigger
 
-My submission for the fifth project in the "Grow With Google" scholarship Udacity/Google Android 
-Developer Nanodegree program, currently awaiting review. The jokes in the app are all in-jokes or 
-otherwise relevant to our program. :-) #GoogleUdacityScholars #GrowWithGoogle #MadeWithUdacity
+My accepted submission for the fifth project in the "Grow With Google" scholarship Udacity/Google Android 
+Developer Nanodegree program. The jokes in the app are all in-jokes or otherwise relevant to our program. 
+:-) #GoogleUdacityScholars #GrowWithGoogle #MadeWithUdacity
 
 ## Video walkthrough of the free version/flavor
 
